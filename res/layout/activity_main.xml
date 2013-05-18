@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<TextView
+	 android:id="@+id/ipx2"
+	 android:layout_width="fill_parent"
+	 android:layout_height="wrap_content"
+	 android:text="Server ip:"/>
+	<EditText
+	 android:id="@+id/ipserverx2"
+	 android:layout_width="fill_parent"
+	 android:layout_height="wrap_content" />
+	<TextView
+	 android:id="@+id/portx2"
+	 android:layout_width="fill_parent"
+	 android:layout_height="wrap_content"
+	 android:text="Server port:"/>
+	<EditText
+	 android:id="@+id/portserverx2"
+	 android:layout_width="fill_parent"
+	 android:layout_height="wrap_content" />	
+	<Button
+	 android:id="@+id/newact"
+	 android:layout_width="fill_parent"
+	 android:layout_height="wrap_content"
+	 android:text="Connect" 
+	 android:onClick="sendMessage"/>
+
+</LinearLayout>
